@@ -1,0 +1,1 @@
+import{i as e}from"./ambiente.3SkJ_mMw.js";var t=document.querySelector(`[data-foglio]`);if(t&&`IntersectionObserver`in window&&!e.matches){let e=new IntersectionObserver(n=>{n[0].isIntersecting&&(t.classList.add(`is-dentro`),e.disconnect())},{threshold:.35});e.observe(t)}

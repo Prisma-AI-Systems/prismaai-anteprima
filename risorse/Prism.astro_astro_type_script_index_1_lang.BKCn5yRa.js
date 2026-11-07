@@ -1,0 +1,1 @@
+import"./prisma.P298L4os.js";
